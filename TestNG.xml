@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Practice Suite">
+<test name="Test Basics 1">
+<parameter name="a" value="10"></parameter>
+<parameter name="b" value="5"></parameter>
+<classes>
+<class name="qn3.qn3.CalculatorAppTest"></class></classes>
+</test>
+</suite>
