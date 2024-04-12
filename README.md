@@ -1,6 +1,6 @@
-# Calculator Application
+# Calculator Application Test
 
-This project is a simple calculator application implemented in Java.
+This project tests a simple calculator application implemented in Java and checks the CI/CD with Jenkins.
 
 # Project Structure
 
