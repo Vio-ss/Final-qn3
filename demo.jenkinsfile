@@ -16,15 +16,16 @@ pipeline {
         stage('Test') {
             steps {
                 
-                bat "mvn test"
+                bat "mvn clean test -Dsurefire.suiteXmlFiles=TestNG.xml"
             }
         }
         
     }
     post{
-        always{
-            deleteDir()
-        }
+    	always {
+                    // Archive test reports
+                    junit 'target/surefire-reports/*.xml'
+                }
 
     }
 
