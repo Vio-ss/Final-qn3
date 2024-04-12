@@ -4,7 +4,7 @@ This project is a simple calculator application implemented in Java.
 
 # Project Structure
 
-![Calculator](file:///D:/worldline/testing/wl%20tasks/final/qn2/calc.png)
+![calc](https://github.com/Vio-ss/Final-qn3/assets/77194486/58d1a6fa-f918-4709-8c81-e9aa4ef726c6)
 
 ## Features
 
